@@ -1,0 +1,219 @@
+/* ---------------------------------------PAGE DACCEUIL---------------- */
+body{
+    margin : 10px 10px;
+    padding : 10px;
+  
+    
+   
+}
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+   
+}
+
+.presentation_site{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    
+    
+}
+
+h1{ 
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: 'Andada Pro', serif;
+    font-family: 'Asap', sans-serif;
+    width: 80%;
+    border-bottom: 2px solid gray;
+    margin: 3rem ;
+    padding: 0.5rem;
+}
+
+#logo_img {
+    
+    width: 100%;
+
+}
+
+.sub_title{
+    margin: 3rem ;
+    padding: 0.5rem;  
+    width: 80%;
+   
+    text-align: center;
+    /* google font */
+    font-family: 'Andada Pro', serif;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+
+}
+
+#card_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px 50px ;
+    width: 30%;
+    height: 30rem;
+    background: none;
+    border: 2px solid rgba(red, green, blue, 0.1);
+    box-shadow: 20px -5px teal;
+    
+}
+.card_link{
+    text-decoration: none;
+    
+}
+
+/* ---------------------Tableau de Bord ---------------------------*/
+
+.main_container{
+    background:linear-gradient(to left,  transparent, #ced7df);
+   
+
+}
+.block_img{
+    text-align: center;
+    width: 80%;
+    border-bottom: 3px double rgb(85, 83, 83);
+    
+    margin: 20px 20px;
+    
+    
+   
+}
+.logo_no_home{
+   
+   
+    height: 200px;
+   
+}
+
+.container_card_tb{
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card_tb{
+    margin: 20px 20px;
+    padding: 10px;
+   
+    background : #c9e1e4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    box-shadow: 0 0 2em rgb(107, 101, 101) ;
+    width: 20rem;
+    height: 10rem;
+}
+.card_offer{
+    color: black;
+    font-weight: bold;
+    font-size: small;
+}
+
+.card_button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(206, 206, 216);
+    background-color: #fff;
+    color: rgb(65, 63, 63);
+    font-weight:500 ;
+}
+
+/* --------------------PAGE DETAIL OFFRE --------------------------------*/
+.container_offer{
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px;
+   
+    background : #c9e1e4;
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    box-shadow: 0 0 2em rgb(107, 101, 101) ;
+    width: 70%;
+    height: 50rem;
+}
+
+.h4{
+    margin: 1.5rem ;
+    padding: 0.5rem;  
+    width: 80%;
+    text-align: center;
+}
+
+#ul_details_offer{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.li_detail{
+    margin: 10px;
+    text-transform :capitalize;
+    /* google font */
+    font-family: 'Andada Pro', serif;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+
+}
+#description_offer{
+    text-align: left;
+    margin: auto;
+    background-color: #fff;
+    width: 60%;
+    height: 200px;
+    box-sizing: border-box;
+}
+
+#buttuns_container{
+
+    margin-top: 50px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.button_modify_offer{
+
+    border: none;
+    background-color: #FFA07A;
+    padding: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border: 3px solid rgb(202, 199, 199);
+    border-radius: 5px;
+}
+
+
+
+
+
