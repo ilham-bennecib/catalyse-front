@@ -10,6 +10,7 @@ fetch('http://localhost:5000/')
     for (let i = 0; i < data.length; i++) {
       // Créer une carte pour chaque offre d'emploi
       const carteOffreEmploi = document.createElement('div');
+      
       carteOffreEmploi.classList.add('card_tb');
       
 
@@ -27,9 +28,13 @@ fetch('http://localhost:5000/')
 
       // on creer un bouton pour le détail de l'offre
         const newButton = document.createElement('button');
-        newButton.textContent = `Voir plus de détails`;
-        // on lui ajoute la class card_button
         newButton.classList.add('card_button');
+        // Créez un élément "a" pour le lien
+        const link = document.createElement('a');
+        link.href = `detail_offre.html?id=${data[i].id}`;
+        link.textContent = 'Voir plus de détails';
+        
+        newButton.appendChild(link);
         carteOffreEmploi.appendChild(newButton);
 
       // Ajouter la carte à la div
